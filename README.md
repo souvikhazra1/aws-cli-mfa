@@ -8,6 +8,7 @@ A simple `Node.js` project to manage MFA for IAM user from CLI, useful when usin
 
 ## Build
 ```
+npm i
 npm run build
 ```
 ## Usage
