@@ -2,15 +2,6 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "AllowUserToCreateDeleteVirtualMFADevice",
-            "Effect": "Allow",
-            "Action": [
-                "iam:CreateVirtualMFADevice",
-                "iam:DeleteVirtualMFADevice"
-            ],
-            "Resource": "arn:aws:iam::*:mfa/*"
-        },
-        {
             "Sid": "AllowUserToManageTheirOwnMFA",
             "Effect": "Allow",
             "Action": [
